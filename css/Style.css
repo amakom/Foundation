@@ -550,14 +550,17 @@ textarea.form-control {
 .header {
   border-bottom: 1px solid var(--border-color-2);
 }
-.header-logo a {
-  font-size: 26px;
+.header-logo img {
+  max-width: 85px;
+  padding: 0 15px;
+}
+
+.header-logo span {
+  color: var(--black-90);
   text-transform: uppercase;
   font-weight: 700;
-  color: var(--black-70);
-}
-.header-logo span {
-  color: var(--main-color);
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 .header .menu-item {
   display: inline-block;
@@ -632,13 +635,12 @@ textarea.form-control {
   text-transform: capitalize;
   margin: 0 0 20px;
 }
-.footer-item .footer-logo {
-  color: var(--black-70);
-  text-transform: uppercase;
+.footer-logo img{
+  max-width: 65px;
+  margin-top: -4%;
+  margin-bottom: 5px;
 }
-.footer-item .footer-logo span {
-  color: var(--main-color);
-}
+
 .footer-item ul li:not(:last-child) {
   margin-bottom: 8px;
 }
@@ -847,10 +849,15 @@ textarea.form-control {
   background-color: var(--green-light);
 }
 /*-------------------------------
- 25. =bai section
+ 25. =become an instructor section
 ---------------------------------*/
 .bai-section .circular-img-circle {
   background-color: var(--yellow-light);
+}
+
+.support-address .section-title p{
+  text-align: center;
+  font-size: 25px;
 }
 /*-------------------------------
  26. =gallery section
@@ -1153,6 +1160,61 @@ textarea.form-control {
 
 .gallery-popup .gp-next{
   right: 15px;
+}
+
+
+
+/*-----------------------------
+ about-our-sponsore Section
+-------------------------------*/
+.col-center{
+  margin: 0 auto;
+  float: none !important;
+}
+.carousel {
+  margin: 50px auto;
+  padding: 0 70px;
+}
+.about-our-sponsore .carousel-item{
+  color: var(--black-90);
+  font-size: 18px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 250px;
+}
+.about-our-sponsore .carousel-item .img-box {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+.about-our-sponsore .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+.about-our-sponsore h4 {
+  text-transform: capitalize;
+  margin: 10px 0 0;
+}
+
+.about-our-sponsore p {
+  margin: 10px 0 0;
+  display: block;
+}
+
+
+
+.about-our-sponsore .carousel span {
+  font-size: 68px;
+  line-height: 42px;
+  position: absolute;
+  display: inline-block;
+  color: var(--black-90);
 }
 
 
